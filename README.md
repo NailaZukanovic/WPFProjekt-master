@@ -40,3 +40,7 @@ Visualizing Your LinkedLists
 ----------------------------
 
 If you press the "Start" button in VisualStudio, it will run the SinglyLinkedListVisualizer application, which will create and show a visualization of a SinglyLinkedList.  You can run various methods from within the SinglyLinkedListVisualizer, in order to visually see their effects on the SinglyLinkedList and its SinglyLinkedListNodes.
+
+Uputstvo
+-------------
+Instalirati SqlClient. Formirati bazu sa Nodesom sa kolonama Id tipa int i Name tipa nvarchar(50).
