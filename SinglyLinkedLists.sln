@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedLists", "SinglyLinkedLists\SinglyLinkedLists.csproj", "{72A0D6BE-FF5F-4F4A-A1D5-2C405C9B9D05}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSinglyLinkedLists", "UnitTestSinglyLinkedLists\UnitTestSinglyLinkedLists.csproj", "{1C013C23-5EF5-4DA4-B342-9AEBC681680D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedListVisualizer", "SinglyLinkedListVisualizer\SinglyLinkedListVisualizer.csproj", "{E5D53594-95DC-4095-9B98-1FF5CD5CE978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedLists.Facades.SqlDatabase", "SinglyLinkedLists.Facades.SqlDatabase\SinglyLinkedLists.Facades.SqlDatabase.csproj", "{4805828D-B1F0-498E-97B7-0CC700B06568}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +29,15 @@ Global
 		{E5D53594-95DC-4095-9B98-1FF5CD5CE978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5D53594-95DC-4095-9B98-1FF5CD5CE978}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5D53594-95DC-4095-9B98-1FF5CD5CE978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4805828D-B1F0-498E-97B7-0CC700B06568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4805828D-B1F0-498E-97B7-0CC700B06568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4805828D-B1F0-498E-97B7-0CC700B06568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4805828D-B1F0-498E-97B7-0CC700B06568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B60B5B03-2AB6-4A7A-8850-D119F0D00ECE}
 	EndGlobalSection
 EndGlobal

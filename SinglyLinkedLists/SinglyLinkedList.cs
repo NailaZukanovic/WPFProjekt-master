@@ -8,9 +8,11 @@ namespace SinglyLinkedLists
     public class SinglyLinkedList
     {
         private SinglyLinkedListNode firstNode;
+        private Facades.SqlDatabase.Contracts.ISqlDatabase _sqlDatabase;
         public SinglyLinkedList()
         {
             // NOTE: This constructor isn't necessary, once you've implemented the constructor below.
+            _sqlDatabase = new Facades.SqlDatabase.SqlDatabase();    
         }
 
         // READ: http://msdn.microsoft.com/en-us/library/aa691335(v=vs.71).aspx
@@ -80,7 +82,7 @@ namespace SinglyLinkedLists
             SinglyLinkedListNode temp = firstNode;
             firstNode = new SinglyLinkedListNode(value);
             firstNode.Next = temp;
-
+            _sqlDatabase.AddNode(value);
         }
 
         public void AddLast(string value)

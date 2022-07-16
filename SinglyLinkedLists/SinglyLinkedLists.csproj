@@ -44,6 +44,12 @@
     <Compile Include="SinglyLinkedList.cs" />
     <Compile Include="SinglyLinkedListNode.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SinglyLinkedLists.Facades.SqlDatabase\SinglyLinkedLists.Facades.SqlDatabase.csproj">
+      <Project>{4805828d-b1f0-498e-97b7-0cc700b06568}</Project>
+      <Name>SinglyLinkedLists.Facades.SqlDatabase</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
